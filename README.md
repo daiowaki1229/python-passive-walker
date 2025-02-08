@@ -77,6 +77,14 @@ This will open a browser window displaying the walking animation interactively.
 
 これにより、ブラウザで歩行アニメーションをインタラクティブに表示できます。
 
+### Try the Web Application Online / Webアプリをオンラインで試す
+
+You can access the web application via Streamlit Cloud:
+
+Streamlit CloudでWebアプリを試すことができます。
+
+[Passive Walker Web App](https://python-passive-walker.streamlit.app)
+
 ## License / ライセンス
 This project is licensed under the MIT License.
 
