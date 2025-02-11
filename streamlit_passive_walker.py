@@ -1,3 +1,8 @@
+
+# streamlit_passive_walker.py
+# Copyright (c) 2025 Dai Owaki <owaki@tohoku.ac.jp>
+# ver. 2025.2.2.
+
 import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
