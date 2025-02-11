@@ -24,7 +24,7 @@ params = [alpha, m_hip, m_sw, l, g]  # シミュレーションパラメータ
 # 初期条件の設定
 max_t = 10.0  # シミュレーションの最大時間 [s]
 dt = 0.00010  # 時間ステップ [s]
-times = 10    # 動画のスピード倍率
+times = 100   # 動画のスピード倍率
 
 video_dt = dt * times
 

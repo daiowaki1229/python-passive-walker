@@ -26,12 +26,12 @@ def video(x, dt, max_t, params, foot):
     ax1.grid()
 
     # アニメーション用のプロットオブジェクトを作成
-    foot_p,  = plt.plot([], [], 'ro', markersize=10)         # 足の描画
+    slope,   = plt.plot([], [], 'k-', lw=1)                  # 斜面の描画
     stleg,   = plt.plot([], [], 'b-', lw=3)                  # 支持脚の描画
     swleg,   = plt.plot([], [], 'b-', lw=3)                  # 遊脚の描画
     hip,     = plt.plot([], [], 'mo', markersize=20)         # 股関節の描画
     knee,    = plt.plot([], [], 'co', markersize=10)         # 膝の描画
-    slope,   = plt.plot([], [], 'k-', lw=1)                  # 斜面の描画
+    foot_p,  = plt.plot([], [], 'ro', markersize=10)         # 足の描画
 
     # 時間のリストを作成
     time  = np.arange(0.0, max_t, dt)
@@ -98,8 +98,7 @@ def video(x, dt, max_t, params, foot):
 
     # アニメーションの実行
     ani = animation.FuncAnimation(fig, anime, np.arange(1, len(x)), interval=dt * 1.0e+4, blit=True, init_func=init)
-    #ani.save('py_passive_walker3_v2.mp4', writer='ffmpeg')　#動画保存用
-
+    #ani.save('py_passive_walker.mp4', writer='ffmpeg') #動画保存用
     
     # アニメーションの表示
     plt.show()
