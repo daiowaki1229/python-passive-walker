@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+# passive_walker_ode.py
+# Copyright (c) 2025 Dai Owaki <owaki@tohoku.ac.jp>
+# ver. 2025.2.2.
+
 # 必要なライブラリをインポート
 from scipy.integrate import odeint
 from scipy.integrate import ode
