@@ -63,6 +63,10 @@ This will run the simulation, displaying key values in the terminal such as the 
 
 このコマンドを実行すると、各接地タイミングごとの1周期の時間や、状態変数（支持脚角度、遊脚角度、支持脚角速度、遊脚角速度）がターミナルに表示され、シミュレーションが完了するとアニメーションが表示されます。
 
+
+https://github.com/user-attachments/assets/1f5250b8-7a32-4860-be63-4fd81528b9e5
+
+
 ### Run the Web Application / Webアプリを実行
 
 To launch the Streamlit web application, run:
