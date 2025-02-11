@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+# video_passive_walker.py
+# Copyright (c) 2025 Dai Owaki <owaki@tohoku.ac.jp>
+# ver. 2025.2.2.
+
 # 必要なライブラリをインポート
 import matplotlib.pyplot as plt
 import math as m
